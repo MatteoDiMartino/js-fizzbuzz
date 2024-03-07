@@ -1,0 +1,33 @@
+ul {
+    list-style: none;
+}
+
+.ms-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+}
+
+main {
+    background-color: #1C1C1C;
+
+}
+
+.ms-box {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(52, 0, 100);
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.ms-p-r {
+    position: relative;
+}
+
+.ms-p-a {
+    position: absolute;
+    bottom: 100px;
+}

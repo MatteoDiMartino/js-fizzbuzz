@@ -20,6 +20,10 @@ for (let i = 1; i<=100; i++) {
     let newLi = document.createElement('li');
     newLi.innerHTML = i;
     unoList.append(newLi);
+    newLi.classList.add('ms-box');
+    newLi.classList.add('text-white');
+    newLi.classList.add('rounded-2');
+
 
     let printVal
 
