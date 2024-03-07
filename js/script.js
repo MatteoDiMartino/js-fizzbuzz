@@ -21,16 +21,18 @@ for (let i = 1; i<=100; i++) {
     newLi.innerHTML = i;
     unoList.append(newLi);
 
-    if (i % 3 === 0 && i % 5 === 0) {
-        newLi = 'fizzbuzz';
-    } else if (i % 3 === 0) {
-        newLi = 'fizz';
-    } else if (i % 5 === 0) {
-        newLi = 'buzz';
-    } else {
-        newLi = i;
-    }
+    let printVal
 
+    if (i % 3 === 0 && i % 5 === 0) {
+        printVal = 'fizzbuzz';
+    } else if (i % 3 === 0) {
+        printVal = 'fizz';
+    } else if (i % 5 === 0) {
+        printVal = 'buzz';
+    } else {
+        printVal = i;
+    }
     console.log (newLi);
-    
+
+    newLi.innerHTML = printVal;
 };
